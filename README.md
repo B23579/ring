@@ -7,7 +7,7 @@ module load openmpi-4.1.1+gnu-9.3.0
 mpic++ blocking_ring.cpp -o block 
 mpic++ non_blocking_ring.cpp -o non_block
 ```
-To submit the job the program on the computer node, run the following syntax
+To submit the job on the computer node, run the following syntax
 
 ```
 qsub job.pbs
