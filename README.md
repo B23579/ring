@@ -14,7 +14,7 @@ qsub job.pbs
 ```
 Where `job.pbs` is the PBS bash script. 
 
-Once you have the output in csv file, run the R script `plot_performance.R` make sure to in stall `tidyverse ` library in order to use `ggplot2`.
+Once you have the output in csv file, run the R script `plot_performance.R` on Rstudio, make sure to install `tidyverse ` library in order to use `ggplot2`. The script and the csv file should be in the folder.  
 
 # Process  to compute 3d matrix-matrix addition in parallel using a 1D toplogy
 
@@ -24,7 +24,7 @@ On the login node compiled the program `sum3Dmatrix.cpp` using the following syn
 module load openmpi-4.1.1+gnu-9.3.0
 mpic++ sum3Dmatrix.cpp -o matr
 ```
-creat a PBS script `sum.pbs` and past the following line of code 
+Creat a PBS script `sum.pbs` and past the following line of code 
 
 ```
 #!/bin/bash
@@ -46,7 +46,7 @@ do
 done 
 exit
 ```
-Then, submit the job on the computer node using the following syntax
+Use the following syntax to submit the job to the computer node 
 
 ```
 qsub sum.pbs
