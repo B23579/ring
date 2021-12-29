@@ -1,6 +1,6 @@
 # Process to run all the program we provided for ring topology
 
-Our MPI programs were written in `C++`.  On the login node compiled each program using the following syntax  
+Our MPI programs were written in `C++`.  On the login node, compile each program using the following syntax  
 
 ```
 module load openmpi-4.1.1+gnu-9.3.0
