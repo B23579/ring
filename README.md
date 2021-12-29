@@ -18,7 +18,7 @@ Once you have the output in csv file, run the R script `plot_performance.R` on R
 
 # Process  to compute 3d matrix-matrix addition in parallel using a 1D toplogy
 
-On the login node compiled the program `sum3Dmatrix.cpp` using the following syntax  
+On the login node compile the program `sum3Dmatrix.cpp` using   
 
 ```
 module load openmpi-4.1.1+gnu-9.3.0
